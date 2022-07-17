@@ -1,0 +1,59 @@
+html {
+    background: url('./ramones-live.webp') bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    border: .4rem double #e7e7e7;
+    border-radius: .5rem;
+    margin: .5rem;
+    font-size: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    text-align: center;
+    width: 5rem;
+    color: #e7e7e7;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: rgb(248, 79, 96);
+    box-shadow: 0 0 1rem rgb(248, 79, 96);
+}
+
+kbd {
+    display: block;
+    font-family: 'Syne', sans-serif;
+    font-size: 1.6em;
+}
+
+.sound {
+    letter-spacing: .1rem;
+    color: rgb(248, 79, 96);
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
+    color: #e7e7e7;
+}
